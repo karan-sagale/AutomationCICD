@@ -22,7 +22,7 @@ public class ErrorValidationsTest extends BaseTest {
 		// String countryName = "india";
 
 		landingPage.loginApplication("abc@gmail.com", "Ecom");
-		Assert.assertEquals("Incorrect email password.", landingPage.getErrorMessage());
+		Assert.assertEquals("Incorrect email or password.", landingPage.getErrorMessage());
 	}
 
 	@Test
