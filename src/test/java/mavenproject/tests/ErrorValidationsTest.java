@@ -14,6 +14,7 @@ import mavenproject.pageobjects.ProductCatalogue;
 
 public class ErrorValidationsTest extends BaseTest {
 
+        // CICD check 
 	// public static void main(String[] args) throws InterruptedException {
 
 	@Test(groups = { "ErrorHandling" }, retryAnalyzer = Retry.class)
